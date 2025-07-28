@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                                       for(int i = 0 ; i < mysongs.size() ; i++){
                                           items[i] = mysongs.get(i).getName().replace(".mp3", "");
                                       }
-                                      ArrayAdapter<String> adapter = new ArrayAdapter<>(MainActivity.this , android.R.layout.simple_list_item_1, items );
+                                      ArrayAdapter<String> adapter = new ArrayAdapter<>(MainActivity.this , R.layout.list_item, R.id.songTitle , items);
                                       listView.setAdapter(adapter);
                                       listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                                           @Override
