@@ -43,7 +43,7 @@ Clone this repository:
 bash
 Copy
 Edit
-git clone https://github.com/hassnainy1/MusicPlayerApp.git
+git clone https://github.com/hassnainy1/TunePlay.git
 Open in Android Studio
 
 Connect Android device or emulator
